@@ -1,0 +1,45 @@
+@import url("https://fonts.google.com/share?selection.family=Poppins:wght@300");
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("./back1.jpg");
+    min-height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-position: center center;
+    font-family: "poppins";
+    margin: 0;
+}
+h1{
+    font-weight: normal;
+    font-size: 4rem;
+    margin-top: 1rem;
+    color: rgb(34, 94, 128);
+}
+.countdown_count{
+     display: flex;
+}
+
+.big-text{
+    color: rgb(34, 94, 128);
+    font-weight: bold;
+    font-size: 6rem;
+    line-height: 1;
+    margin: 0 2rem;
+    text-align: center;
+}
+
+.countdown_e{
+    text-align: center;
+    color: rgb(34, 94, 128);
+}
+
+.countdown_e span{
+    font-size: 1.5rem;
+}
